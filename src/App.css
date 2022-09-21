@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+    background-color: lightslategray;
+}
+.App{
+
+   text-align: center;
+}
+#div_lives_id{
+    color:blue;
+    font-size: 2vw;
+    padding:1vw;
+}
+#title{
+    width:60%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 3vw;
+    
+}
+
+#img_div_id{
+    width:90%;
+    margin:auto;
+    display:flex;
+}
+#start_btn{
+    width:25%;
+    min-height: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    color:white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.input_box{
+    width:3vw;
+    min-height: 3vw;
+    margin:1vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.guess_btn{
+    width:3vw;
+    min-height: 3vw;
+    margin:1vw;
+    cursor: pointer;
+}
+#start_again_btn{
+    width:25%;
+    min-height: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    color:white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#heading_div_id{
+    font-size:5vw;
+    font-weight: bold;
+    font-family: 'Bungee Spice', cursive;
+}
